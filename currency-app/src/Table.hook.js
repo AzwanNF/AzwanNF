@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 const useTable = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const [, setError] = useState(null);
 
   useEffect(() => {
     const getData = async () => {
